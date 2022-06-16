@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&family=Roboto:wght@400;500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>iCloud</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/apple logo.png" alt="apple" class="logo">
+        <div class="help">?</div>
+    </header>
+    <main id="main">
+        <div class="container">
+            <div class="main-cta">
+                <div class="icloud-icon">
+                    <img src="/assets/icloud icon.png" alt="icloud" class="logo icloud-logo">
+                </div>
+                <h1 class="sign-in">Sign in to iCloud</h1>
+                <div class="input-group">
+                    <div class="email">
+                        <form action="#" class="email-form">
+                        <input type="email" placeholder="Apple ID" id="email-address" class="email-input" required>
+                        <label for="email-address" class="email-address-label">
+                            <div class="email-icon">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                            <div class="loading-icon"></div>
+                        </label>
+                        </form>
+                    </div>
+                    <div class="pswd-ctn">
+                        <form action="#" class="pswd-form">
+                        <input type="password" placeholder="Password" class="pswd" id="pswd" required>
+                        </form>
+                    </div>
+                    <div class="save-log">
+                        <input type="checkbox" name="remember" id="remember" class="remember">
+                        <label for="remember" class="remember-txt">Keep me signed in</label>
+                    </div>
+                </div>
+                <div class="reset-pswd">
+                    <a href="https://iforgot.apple.com/password/verify/appleid" class="reset-pswd-link">Forgot Apple ID or password?</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <Footer class="footer">
+        <div class="footer-links">
+            <a href="https://www.icloud.com/#" class="footer-link">create apple ID</a>
+            <a href="https://www.apple.com/support/systemstatus/" class="footer-link">system status</a>
+            <a href="https://www.apple.com/privacy/" class="footer-link">privacy policy</a>
+            <a href="https://www.apple.com/legal/internet-services/icloud/" class="footer-link">terms &amp; conditions</a>
+            <p class="footer-link">Copyright &copy; 2022 Apple Inc. All rights reserved.</p>
+        </div>
+    </Footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
